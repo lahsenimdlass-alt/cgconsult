@@ -1,8 +1,24 @@
 import { Target, Eye, CheckCircle, Users } from 'lucide-react';
 
 export function About() {
+  const items = [
+    {
+      title: 'Approche terrain et opérationnelle',
+      icon: CheckCircle,
+      description:
+        'Nous intervenons directement sur le terrain avec une approche pratique et opérationnelle.',
+    },
+    {
+      title: 'Expertise sectorielle',
+      icon: Users,
+      description:
+        "Nos consultants ont une expérience approfondie dans différents secteurs d'activité.",
+    },
+  ];
+
   return (
     <div className="bg-white">
+      {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold mb-6">
@@ -14,6 +30,7 @@ export function About() {
         </div>
       </section>
 
+      {/* Mission & Vision */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
@@ -38,11 +55,30 @@ export function About() {
             </div>
           </div>
 
+          {/* Pourquoi choisir CGC */}
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
               Pourquoi choisir CGC ?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {[
-                {
-                  title: 'Approche terrain et opérationnelle',
+              {items.map((item, index) => {
+                const Icon = item.icon;
+                return (
+                  <div key={index} className="bg-gray-50 p-6 rounded-lg shadow">
+                    <div className="w-12 h-12 mb-4 flex items-center justify-center bg-emerald-600 rounded-full text-white">
+                      <Icon size={24} />
+                    </div>
+                    <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                    <p className="text-slate-700">{item.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default About;
