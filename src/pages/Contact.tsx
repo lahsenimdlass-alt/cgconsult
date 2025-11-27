@@ -103,7 +103,7 @@ export function Contact() {
                       rel="noopener noreferrer"
                       className="text-emerald-600 hover:text-emerald-700 font-medium"
                     >
-                      +33 1 23 45 67 89
+                      +212 6 23 45 67 89
                     </a>
                     <p className="text-sm text-slate-600 mt-1">Chat instantané</p>
                   </div>
@@ -116,8 +116,8 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Adresse</h3>
                     <p className="text-slate-700">
-                      123 Avenue des Champs-Élysées<br />
-                      75008 Paris, France
+                      123 Avenue Zerktouni<br />
+                      75, casablanca
                     </p>
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export function Contact() {
                       value={formData.telephone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none transition-colors"
-                      placeholder="+33 6 12 34 56 78"
+                      placeholder="+212 6 12 34 56 78"
                     />
                   </div>
 
@@ -244,7 +244,7 @@ export function Contact() {
           <div className="bg-slate-100 rounded-2xl overflow-hidden shadow-lg">
             <div className="aspect-[21/9] bg-slate-200 relative">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2916878525095!2d2.3069526!3d48.8698456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fec70fb1d8d%3A0x40b82c3688c9460!2sChamps-%C3%89lys%C3%A9es%2C%20Paris%2C%20France!5e0!3m2!1sen!2sus!4v1635000000000!5m2!1sen!2sus"
+                src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979122.4801684743!2d-7.169584677295721!3d33.87572980996627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7d207210f057645%3A0xa80cb181e2e08b24!2sCabinet%20General%20de%20Consulting!5e0!3m2!1sfr!2sma!4v1764284062156!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
