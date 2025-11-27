@@ -244,7 +244,7 @@ export function Contact() {
           <div className="bg-slate-100 rounded-2xl overflow-hidden shadow-lg">
             <div className="aspect-[21/9] bg-slate-200 relative">
               <iframe
-                src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1696020.7618470904!2d-7.1695847!3d33.8757298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7d207210f057645%3A0xa80cb181e2e08b24!2sCabinet%20General%20de%20Consulting!5e0!3m2!1sfr!2sma!4v1764285139990!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1696020.7618470904!2d-7.1695847!3d33.8757298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7d207210f057645%3A0xa80cb181e2e08b24!2sCabinet%20General%20de%20Consulting!5e0!3m2!1sfr!2sma!4v1764285642161!5m2!1sfr!2sma" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -268,7 +268,7 @@ export function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+33123456789"
+              href="tel:+21223456789"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-emerald-600 rounded-lg hover:bg-slate-100 transition-all font-semibold text-lg shadow-xl"
             >
               <Phone className="mr-2" size={20} />
