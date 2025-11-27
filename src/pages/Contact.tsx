@@ -240,23 +240,23 @@ export function Contact() {
       </section>
 
       <section className="pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-slate-100 rounded-2xl overflow-hidden shadow-lg">
-            <div className="aspect-[21/9] bg-slate-200 relative">
-              <iframe
-                src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1696020.7618470904!2d-7.1695847!3d33.8757298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7d207210f057645%3A0xa80cb181e2e08b24!2sCabinet%20General%20de%20Consulting!5e0!3m2!1sfr!2sma!4v1764285642161!5m2!1sfr!2sma" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="absolute inset-0"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-slate-100 rounded-2xl overflow-hidden shadow-lg">
+      <div className="aspect-[21/9] bg-slate-200 relative">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1696020.7618470904!2d-7.1695847!3d33.8757298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7d207210f057645%3A0xa80cb181e2e08b24!2sCabinet%20General%20de%20Consulting!5e0!3m2!1sfr!2sma!4v1764285642161!5m2!1sfr!2sma"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="absolute inset-0"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="py-20 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
