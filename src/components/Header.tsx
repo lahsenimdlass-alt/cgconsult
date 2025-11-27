@@ -45,3 +45,40 @@ export function Header() {
               <span>Nous appeler</span>
             </a>
           </div>
+
+          {/* Mobile menu button */}
+          <div className="lg:hidden">
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="p-2 rounded-md text-slate-700 hover:text-emerald-600 focus:outline-none"
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile menu */}
+        {isMenuOpen && (
+          <div className="lg:hidden mt-4 space-y-2">
+            {navItems.map((item) => (
+              <Link
+                key={item.path}
+                to={item.path}
+                className="block text-slate-700 hover:text-emerald-600 transition-colors font-medium"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <a
+              href="tel:+33123456789"
+              className="flex items-center space-x-2 bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
+            >
+              <Phone size={18} />
+              <span>Nous appeler</span>
+            </a>
+          </div>
+        )}
+      </nav>
+    </header>
+  );
+}
