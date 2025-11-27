@@ -50,7 +50,7 @@ export function About() {
               </div>
               <h2 className="text-2xl font-bold text-slate-900 mb-4">Notre Vision</h2>
               <p className="text-slate-700 leading-relaxed">
-                Devenir un partenaire de référence dans la performance, le recrutement et l'innovation en France et à l'international.
+                Devenir un partenaire de référence dans la performance, le recrutement et l'innovation au Maroc et à l'international.
               </p>
             </div>
           </div>
